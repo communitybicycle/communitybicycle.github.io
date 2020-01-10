@@ -72,7 +72,7 @@ const SiteHeader = styled.header`
   justify-content: center;
 `
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <SiteHeader>
     <Content>
       <p>
@@ -80,9 +80,6 @@ const Header = ({ siteTitle }) => (
         <NavLink to="/about">About</NavLink>
         <NavLink to="/portfolio">Portfolio</NavLink>
         <NavLink to="/blog">Blog</NavLink>
-        <GitHubLink href="https://github.com/communitybicycle">
-          GitHub
-        </GitHubLink>
       </p>
     </Content>
   </SiteHeader>

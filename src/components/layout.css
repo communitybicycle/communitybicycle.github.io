@@ -619,3 +619,9 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+#footer-top,
+#footer-bottom {
+  width: 100%;
+  text-align: center;
+}
