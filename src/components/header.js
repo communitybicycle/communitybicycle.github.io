@@ -76,8 +76,9 @@ const Header = ({ siteTitle }) => (
   <SiteHeader>
     <Content>
       <p>
-        <HomeLink to="/">{siteTitle}</HomeLink>
+        <HomeLink to="/">Hal Shin</HomeLink>
         <NavLink to="/about">About</NavLink>
+        <NavLink to="/portfolio">Portfolio</NavLink>
         <NavLink to="/blog">Blog</NavLink>
         <GitHubLink href="https://github.com/communitybicycle">
           GitHub
@@ -86,13 +87,5 @@ const Header = ({ siteTitle }) => (
     </Content>
   </SiteHeader>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

@@ -11,6 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
 
 import Header from "./header"
+import Footer from "./footer"
 import "./layout.css"
 
 const Content = styled.div`
@@ -18,15 +19,6 @@ const Content = styled.div`
   max-width: 860px;
   padding: 0 1.0875rem 1rem;
   padding-top: 0;
-`
-
-const GatsbyLink = styled.a`
-  margin-left: 5px;
-`
-
-const Footer = styled.footer`
-  display: flex;
-  justify-content: center;
 `
 
 const Layout = ({ children }) => (
@@ -45,11 +37,7 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <Content>
           <main>{children}</main>
-          <Footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <GatsbyLink href="https://www.gatsbyjs.org">Gatsby</GatsbyLink>
-          </Footer>
+          <Footer />
         </Content>
       </>
     )}
