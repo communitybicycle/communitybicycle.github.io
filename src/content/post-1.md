@@ -1,45 +1,46 @@
 ---
-title: "This is such a long headline and i dont know what to write so i keep continiung"
-date: "2019-03-17"
+title: "How I Got Here"
+date: "2020-01-10"
 draft: false
-path: "/blog/example-title"
----
-# H1
-
-## H2
-
-### H3
-
-#### H4
-
-##### H5
-
-###### H6
-
-Paragraph
-
+path: "/blog/my-story"
 ---
 
-> This is a quote
+Back in my first year of university, I ran into computer science majors and I recall not being too intrigued by their field.
 
----
+I was in the liberal arts, and I was very preoccupied by philosophy and its obsessive inquiries into understanding the fundamental nature of our reality and our existence. Years pass, and after obtaining my degree, I finally decide to pursue work in web development&mdash;a path that I would have never expected myself to take. So how did I get here?
 
-[Example.com](example.com)
+## How I Got Into This Mess
 
----
+Oddly enough, coding has always been a stone throw away. In 2002, I was a young lad in grade school, and I happened to pick up a book on HTML lying around the house. Bored with nothing better to do, I read the book and actually made a basic site on my home computer. But seeing nothing really come out of it, I decided it was useless and did not look back for at least a decade.
 
-`const foo = bar`
+My next encounter with coding was not conventional, I suppose. If anyone still remembers the original StarCraft, the game had these "user created" maps with custom features. The players made some incredible maps, ranging from a Dragonball Saga RPG game, to the famous Poker Defense series. When I encountered these exquisite game maps, I had a burning urge to create my own.
 
-```javascript
-const foo = bar
-console.log(foo);
-```
+Sadly, I didn't quite complete a game. I took on challenges that were too big for me&mdash;I wanted to create massive maps with highly complex game logic, and as a beginner into custom map creation, it would've benefitted me to start smaller. But alas, I went back to enjoying maps created by others, and I saw nothing more of making my own maps.
 
----
+## My First Web Work
 
-| Hello | World |
-|-------|------ |
-| Foo   | Bar   |
+In my first summer student role at a local non-profit society, I got thrown into some interesting responsibilities. The team of students helped organize a big local event at the end of the summer, and one of the staff had created a basic WordPress site to advertise it. When I was handed the website for maintenance and development, my basic understanding of HTML provided helpful insight in manually overriding some of the structure set by the WordPress theme. This was my first encounter with the usefulness of coding.
 
+## Taking WordPress Further
 
+WordPress made me feel like the front-end developer that I never was. By leveraging web-building plugins, such as Elementor, I created websites of various uses, such as a personal site, a tennis club site, and a corporate website. At the root, I realized that I still had no understanding of how to build these sites without reliance on WordPress, but the core benefit I reaped in this process was the sheer confidence I gained from the knowledge that if need be, I could learn a new web building platform, such as SquareSpace or Joomla, to make a new website. And in this field, the confidence to learn something new is definitely invaluable.
 
+## But How About a Real Programming Language?
+
+Eventually, I had my real experience with **power**. At a finance company that I worked for, there were many mundane, repetitive administrative tasks that I had to process. Despite my best efforts to become efficient in processing the paperwork (or digital work?), there was simply too much work that was simply too repetitive. Hence, I figured that the work could be automated. So I took up [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) and in a few months, I had enough understanding to begin automating some of the work processes.
+
+My first moment of epiphany was creating 100+ directories based on a MailChimp list of past email campaigns. It only took a few lines of code, and it meant not having to type out 100+ new directories by hand. This was probably the most satisfying feeling I've had so far.
+
+## PDFs and Python
+
+My first moment of **power** was when I succeeded in automating PDF form field inputs. This turned out to be quite difficult. We had a lot of redundant data entry into various PDF forms. There are many ways one can go about doing this, and given that I knew very little about programming, every method seemed plausible (hint: some are easier than others). I first tried fiddling around with the JavaScript console in the PDF editor, but not knowing JavaScript and also the nuissance of having to code something in the PDF editor turned me off from this. I still don't think this would've been a good route anyway.
+
+I also tried GUI automations, but they were buggy and worked less-than-ideally on my colleague's computer. And also, while the script was running, the user would not be able to do other work. And the process was time-consuming. So I scrapped this method.
+
+Finally, after weeks of tinkering, I managed to get the Python [pdfrw library](https://github.com/pmaupin/pdfrw) to work. I set the code to take in a dataset of the client and loop through each and ever PDF form we had and pre-fill the data, so that we could pull the select PDFs that we needed. And it **worked**! The code ran _fast_ and it worked as expected. My work colleague and I began using the code to automate our work life, freeing up time that could be better spent elsewhere. In personal experience, each client would take 1.5~2 hours to complete, and with the code (and other various automations I've implemented down the road), the process only took about half an hour.
+
+## Programming and Power
+
+Having my first taste of **power** in programming through Python, I felt excited and anxious. Programming is a means by which one empowers themselves through creativity and learning. I like the idea of having the skills and the tools to make imaginations come true. Especially in this day where university courses and high-quality lectures are available for free on the internet (in addition to paid content, of course), I felt that if I just put in the work, this would be a field that would be rewarding. And as such, I'm currently enjoying my time learning the web development tools, from JavaScript to React, to Node, and more. If you are currently interesting in learning coding, I'd highly recommend it! It's definitely not as scary as I first thought it was.
+
+And feel free to browse my list of projects [here](/portfolio)!
