@@ -7,7 +7,7 @@ const AboutPage = () => (
   <Layout>
     <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
     <h1>About</h1>
-    <p>Hi, I </p>
+    <p>Hi, I am an avid web developer.</p>
     <h2>Toolkit</h2>
     <ul>
       <li>JavaScript (HTML + CSS)</li>
