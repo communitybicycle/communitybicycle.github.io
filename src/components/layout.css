@@ -601,6 +601,24 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+button {
+  background-color: white;
+  border: 1.5px solid #aaa;
+  color: #777;
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  outline: none;
+  transition: all 0.2s;
+}
+
+button:hover {
+  border: 1.5px solid #222;
+  color: black;
+  cursor: pointer;
+}
+
 .gatsby-highlight {
   background-color: #1d1f21;
   border-radius: 0.3em;
