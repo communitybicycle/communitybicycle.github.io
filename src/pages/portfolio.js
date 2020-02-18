@@ -9,6 +9,24 @@ const AboutPage = () => (
     <SEO title="Portfolio" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Projects</h1>
     <hr />
+
+    {/*D3 PROJECTS*/}
+    <h2>D3 Projects</h2>
+    <p>
+      D3.js is a data visualization library. Using data captured by an API call,
+      I used D3.js to generate different types of charts.
+    </p>
+    <p>
+      This app was created using <strong>D3.js</strong>, <strong>React</strong>,{" "}
+      <strong>React Router DOM (client-side rendering)</strong>,{" "}
+      <strong>Material UI</strong>, and <strong>NPM</strong>.
+    </p>
+    <a href="https://communitybicycle.github.io/d3-projects/">
+      <button>Go to Project</button>
+    </a>
+    <hr />
+
+    {/*POMODORO CLOCK*/}
     <h2>Pomodoro Clock</h2>
     <p>
       A pomodoro clock is intended to facilitate the{" "}
