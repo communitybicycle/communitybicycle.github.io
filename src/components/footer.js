@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import styled from "@emotion/styled"
 
 const GatsbyLink = styled.a`
@@ -21,11 +20,19 @@ const Footer = () => (
     <div id="footer-bottom">
       <p>
         <a href="mailto:hal.shin@alumni.ubc.ca">Email</a> |{" "}
-        <a href="https://twitter.com/_halshin" target="_blank">
+        <a
+          href="https://twitter.com/_halshin"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Twitter
         </a>{" "}
         |{" "}
-        <a href="https://github.com/communitybicycle" target="_blank">
+        <a
+          href="https://github.com/communitybicycle"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           GitHub
         </a>
       </p>
