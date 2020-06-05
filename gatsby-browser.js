@@ -4,7 +4,6 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-require("./src/components/layout.css")
 
 // You can delete this file if you're not using it
 
