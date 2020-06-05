@@ -102,42 +102,48 @@ const AboutPage = () => (
       <li>APIs and Microservices Certification</li>
     </ul>
     <h2>Courses</h2>
-    <p>
-      <a href="https://www.edx.org/course/cs50s-introduction-to-computer-science">
-        CS50's Introduction to Computer Science
-      </a>
-    </p>
-    <p>
-      <a href="https://www.udacity.com/course/introduction-to-python--ud1110">
-        CS101: Intro to Computer Science
-      </a>{" "}
-      by Dave Evans
-    </p>
-    <p>
-      <a href="https://automatetheboringstuff.com/">
-        Automating the Boring Stuff With Python
-      </a>
-    </p>
-    <p>
-      <a href="https://www.udemy.com/course/the-web-developer-bootcamp">
-        The Web Developer Bootcamp
-      </a>
-    </p>
-    <p>
-      <a href="https://www.udemy.com/course/modern-react-bootcamp/">
-        The Modern React Bootcamp
-      </a>
-    </p>
-    <p>
-      <a href="https://www.udemy.com/course/the-advanced-web-developer-bootcamp">
-        The Advanced Web Developer Bootcamp
-      </a>
-    </p>
-    <p>
-      <a href="https://www.udemy.com/course/understand-javascript">
-        JavaScript: Understanding the Weird Parts
-      </a>
-    </p>
+    <Container>
+      <Column>
+        <p>
+          <a href="https://www.edx.org/course/cs50s-introduction-to-computer-science">
+            CS50's Introduction to Computer Science
+          </a>
+        </p>
+        <p>
+          <a href="https://www.udacity.com/course/introduction-to-python--ud1110">
+            CS101: Intro to Computer Science
+          </a>{" "}
+          by Dave Evans
+        </p>
+        <p>
+          <a href="https://automatetheboringstuff.com/">
+            Automating the Boring Stuff With Python
+          </a>
+        </p>
+        <p>
+          <a href="https://www.udemy.com/course/the-web-developer-bootcamp">
+            The Web Developer Bootcamp
+          </a>
+        </p>
+      </Column>
+      <Column>
+        <p>
+          <a href="https://www.udemy.com/course/modern-react-bootcamp/">
+            The Modern React Bootcamp
+          </a>
+        </p>
+        <p>
+          <a href="https://www.udemy.com/course/the-advanced-web-developer-bootcamp">
+            The Advanced Web Developer Bootcamp
+          </a>
+        </p>
+        <p>
+          <a href="https://www.udemy.com/course/understand-javascript">
+            JavaScript: Understanding the Weird Parts
+          </a>
+        </p>
+      </Column>
+    </Container>
   </Layout>
 )
 
