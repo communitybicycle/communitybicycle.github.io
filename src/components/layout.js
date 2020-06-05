@@ -12,7 +12,7 @@ import styled from "@emotion/styled"
 
 import Header from "./header"
 import Footer from "./footer"
-import "./layout.css"
+// import "./layout.css"
 
 const Content = styled.div`
   margin: 0 auto;
