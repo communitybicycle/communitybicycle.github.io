@@ -32,7 +32,7 @@ const AboutPage = () => (
     <p>
       The project link will take you to the development branch hosted on Heroku.
       Currently, to test the bulk of the features of the application, you will
-      need to create a basic account, which is secured through auth0.0
+      need to create a basic account, which is secured through auth0.
     </p>
     <a href="https://projectincubator-frontend.herokuapp.com">
       <button>Go to Project</button>
@@ -95,7 +95,10 @@ const AboutPage = () => (
         Using said CLI to further automate office tasks, such as creating PDF
         forms pre-filled with client's data.
       </li>
-      <li>Using a webscraper (Selenium) and to automate repetitive web-based tasks.</li>
+      <li>
+        Using a webscraper (Selenium) and to automate repetitive web-based
+        tasks.
+      </li>
       <li>
         Using client data and certain templates to auto-generate word documents
         and emails.
@@ -105,6 +108,7 @@ const AboutPage = () => (
         files and folders pertaining a certain client.
       </li>
     </ul>
+    <p></p>
     <p>
       The codebase for this project is quite large and as it contains somewhat
       sensitive information, I do not feel comfortable disclosing this publicly.
